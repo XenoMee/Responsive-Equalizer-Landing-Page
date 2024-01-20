@@ -1,0 +1,14 @@
+:root {
+  --clr-primary-900: #191826;
+  --clr-primary-400: #fa7453;
+  --clr-primary-100: #fcfaf9;
+  --clr-accent-300: #66e2dc;
+  --clr-accent-500: #ffb964;
+
+  --fs-default: 1.25rem;
+
+  --ff-base: "IBM Plex Sans", sans-serif;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
