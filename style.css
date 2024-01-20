@@ -12,3 +12,55 @@
   --fw-regular: 400;
   --fw-bold: 700;
 }
+
+/* A more-intuitive box-sizing model */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Remove default margins */
+* {
+  margin: 0;
+}
+
+/* Make images responsive */
+img,
+svg,
+picture,
+iframe {
+  max-width: 100%;
+  display: block;
+}
+
+/* Avoid text overflowing */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Reduce line height for large text */
+h1 {
+  line-height: 1;
+}
+
+h2 {
+  line-height: 1.3;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+body {
+  min-height: 100svh;
+}
