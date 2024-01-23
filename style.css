@@ -81,12 +81,12 @@ body {
 }
 
 /* Typography */
-.intro__title {
+.intro-title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-bold);
 }
 
-.subscription__title {
+.subscription-title {
   font-size: var(--fs-h2);
 }
 
@@ -141,7 +141,7 @@ body {
 }
 
 /* Layout */
-.section-content {
+.product__content {
   background-color: var(--clr-primary-900);
   background-image: url("./assets/bg-pattern-2.svg");
   background-repeat: no-repeat;
@@ -150,9 +150,10 @@ body {
 
 .app-image {
   width: 15rem;
+  /* transform: translate(5rem, -8rem); */
 }
 
-.subscription-card {
+.product__subscription {
   background-color: var(--clr-primary-400);
   color: var(--clr-primary-100);
   padding: 2rem 1.5rem;
