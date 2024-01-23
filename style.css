@@ -84,3 +84,11 @@ body {
 .subscription__title {
   font-size: 2rem;
 }
+
+.price {
+  font-size: 4.0625rem;
+}
+
+.type {
+  font-size: 1.25rem;
+}
