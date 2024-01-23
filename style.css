@@ -92,3 +92,8 @@ body {
 .type {
   font-size: 1.25rem;
 }
+
+/* Layout */
+.subscription__card {
+  padding: 2rem 1.5rem;
+}
