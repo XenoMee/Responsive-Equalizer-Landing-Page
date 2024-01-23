@@ -194,6 +194,11 @@ body {
   gap: 1rem;
 }
 
+.social-link {
+  color: var(--clr-primary-900);
+  font-size: 1.5rem;
+}
+
 /* Utility classes */
 .has-flex {
   display: flex;
