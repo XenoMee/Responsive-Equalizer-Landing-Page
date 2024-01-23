@@ -140,6 +140,10 @@ body {
   background-color: var(--clr-primary-900);
 }
 
+.app-image {
+  width: 15rem;
+}
+
 .subscription-card {
   background-color: var(--clr-primary-400);
   color: var(--clr-primary-100);
