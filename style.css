@@ -179,6 +179,10 @@ body {
 .social-list {
   padding: 0;
   list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 /* Utility classes */
