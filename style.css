@@ -1,3 +1,4 @@
+/* Global variables */
 :root {
   --clr-primary-900: #191826;
   --clr-primary-400: #fa7453;
@@ -6,12 +7,16 @@
   --clr-accent-500: #ffb964;
 
   --fs-default: 1rem;
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
 
   --ff-base: "IBM Plex Sans", sans-serif;
 
   --fw-regular: 400;
   --fw-bold: 700;
 }
+
+/* Reset */
 
 /* A more-intuitive box-sizing model */
 *,
@@ -61,7 +66,7 @@ textarea {
   font: inherit;
 }
 
-/* General/Generic */
+/* Global style */
 body {
   background-color: var(--clr-primary-100);
   color: var(--clr-primary-900);
@@ -77,12 +82,12 @@ body {
 
 /* Typography */
 .intro__title {
-  font-size: 2.5rem;
+  font-size: var(--fs-h1);
   font-weight: var(--fw-bold);
 }
 
 .subscription__title {
-  font-size: 2rem;
+  font-size: var(--fs-h2);
 }
 
 .price {
