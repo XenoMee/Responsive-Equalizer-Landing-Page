@@ -102,6 +102,11 @@ body {
   cursor: pointer;
   font-weight: var(--fw-bold);
   font-size: 1.125rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .ios-btn {
@@ -109,9 +114,25 @@ body {
   color: var(--clr-primary-100);
 }
 
+.ios-btn::before {
+  content: "";
+  background-image: url("./assets/icon-apple.svg");
+  width: 18px;
+  height: 20px;
+  display: block;
+}
+
 .android-btn {
   background-color: var(--clr-primary-100);
   color: var(--clr-primary-900);
+}
+
+.android-btn::before {
+  content: "";
+  background-image: url("./assets/icon-android.svg");
+  width: 17px;
+  height: 20px;
+  display: block;
 }
 
 /* Layout */
