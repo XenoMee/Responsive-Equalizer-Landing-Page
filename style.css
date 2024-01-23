@@ -103,6 +103,7 @@ body {
   background-color: var(--clr-primary-400);
   color: var(--clr-primary-100);
   padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
 
   display: grid;
   gap: 1rem;
