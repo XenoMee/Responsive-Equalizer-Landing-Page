@@ -87,6 +87,7 @@ body {
 
 .price {
   font-size: 4.0625rem;
+  font-weight: var(--fw-bold);
 }
 
 .type {
