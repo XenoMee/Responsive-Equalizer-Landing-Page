@@ -161,7 +161,7 @@ body {
   background-color: var(--clr-primary-900);
   background-image: url("./assets/bg-pattern-2.svg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom 100% left 40%;
 }
 
 .app-image {
@@ -178,6 +178,11 @@ body {
 
   display: grid;
   gap: 1rem;
+}
+
+.footer {
+  display: grid;
+  gap: 2rem;
 }
 
 .social-list {
