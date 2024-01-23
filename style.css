@@ -94,7 +94,9 @@ body {
 }
 
 /* Layout */
-.subscription__card {
+.subscription-card {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-primary-100);
   padding: 2rem 1.5rem;
 }
 
