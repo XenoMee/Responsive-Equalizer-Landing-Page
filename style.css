@@ -94,6 +94,10 @@ body {
 }
 
 /* Layout */
+.content {
+  background-color: var(--clr-primary-900);
+}
+
 .subscription-card {
   background-color: var(--clr-primary-400);
   color: var(--clr-primary-100);
