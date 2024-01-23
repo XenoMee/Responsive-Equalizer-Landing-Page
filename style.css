@@ -62,5 +62,7 @@ textarea {
 }
 
 body {
+  background-color: var(--clr-primary-100);
+  color: var(--clr-primary-900);
   min-height: 100svh;
 }
