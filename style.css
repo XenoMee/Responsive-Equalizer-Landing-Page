@@ -94,6 +94,20 @@ body {
   font-size: 1.25rem;
 }
 
+/* Button*/
+.btn {
+}
+
+.ios-btn {
+  background-color: var(--clr-primary-900);
+  color: var(--clr-primary-100);
+}
+
+.android-btn {
+  background-color: var(--clr-primary-100);
+  color: var(--clr-primary-900);
+}
+
 /* Layout */
 .section-content {
   background-color: var(--clr-primary-900);
