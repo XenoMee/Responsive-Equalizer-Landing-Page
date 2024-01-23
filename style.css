@@ -166,7 +166,7 @@ body {
 
 .app-image {
   width: 15rem;
-  transform: translate(4rem, -8rem);
+  transform: translate(25%, -25%);
 }
 
 .product__subscription {
