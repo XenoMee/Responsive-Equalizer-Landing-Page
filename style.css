@@ -1,19 +1,26 @@
 /* Global variables */
 :root {
+  /* Colors */
   --clr-primary-900: #191826;
   --clr-primary-400: #fa7453;
   --clr-primary-100: #fcfaf9;
   --clr-accent-300: #66e2dc;
   --clr-accent-500: #ffb964;
 
+  /* Font sizes */
   --fs-default: 1rem;
   --fs-h1: 2.5rem;
   --fs-h2: 2rem;
 
+  /* Font family */
   --ff-base: "IBM Plex Sans", sans-serif;
 
+  /* Font weights */
   --fw-regular: 400;
   --fw-bold: 700;
+
+  /* Padding */
+  --content-padding: 2rem 1.5rem;
 }
 
 /* Reset */
@@ -141,8 +148,10 @@ body {
 }
 
 /* Layout */
-.product-container {
-  --content-padding: 2rem 1.5rem;
+.header__logo,
+.product__intro,
+.footer {
+  padding: var(--content-padding);
 }
 
 .product__content {
