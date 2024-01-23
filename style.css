@@ -138,6 +138,9 @@ body {
 /* Layout */
 .section-content {
   background-color: var(--clr-primary-900);
+  background-image: url("./assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .app-image {
@@ -155,11 +158,6 @@ body {
 }
 
 /* Utility classes */
-.main-grid {
-  display: grid;
-  grid-template-columns: minmax(1rem, 1fr) minmax(20rem, 1fr) minmax(1rem, 1fr);
-}
-
 .has-flex {
   display: flex;
   align-items: center;
