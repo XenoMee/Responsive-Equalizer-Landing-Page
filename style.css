@@ -61,6 +61,7 @@ textarea {
   font: inherit;
 }
 
+/* General/Generic */
 body {
   background-color: var(--clr-primary-100);
   color: var(--clr-primary-900);
@@ -68,4 +69,10 @@ body {
   font-size: var(--fs-default);
   font-weight: var(--fw-regular);
   min-height: 100svh;
+}
+
+/* Typography */
+.intro__title {
+  font-size: 2.5rem;
+  font-weight: var(--fw-bold);
 }
