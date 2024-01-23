@@ -5,7 +5,7 @@
   --clr-accent-300: #66e2dc;
   --clr-accent-500: #ffb964;
 
-  --fs-default: 1.125rem;
+  --fs-default: 1rem;
 
   --ff-base: "IBM Plex Sans", sans-serif;
 
@@ -47,11 +47,11 @@ h6 {
 
 /* Reduce line height for large text */
 h1 {
-  line-height: 1;
+  line-height: 1.2;
 }
 
 h2 {
-  line-height: 1.3;
+  line-height: 1.25;
 }
 
 button,
