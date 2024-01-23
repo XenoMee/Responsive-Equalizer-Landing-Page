@@ -70,6 +70,9 @@ body {
   font-weight: var(--fw-regular);
   line-height: 1.5;
   min-height: 100svh;
+
+  display: grid;
+  place-content: center;
 }
 
 /* Typography */
