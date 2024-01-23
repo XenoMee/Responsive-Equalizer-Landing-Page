@@ -176,6 +176,11 @@ body {
   gap: 1rem;
 }
 
+.social-list {
+  padding: 0;
+  list-style: none;
+}
+
 /* Utility classes */
 .has-flex {
   display: flex;
