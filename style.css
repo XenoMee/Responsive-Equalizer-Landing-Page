@@ -96,6 +96,12 @@ body {
 
 /* Button*/
 .btn {
+  padding: 1em 3em;
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-weight: var(--fw-bold);
+  font-size: 1.125rem;
 }
 
 .ios-btn {
