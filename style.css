@@ -64,5 +64,8 @@ textarea {
 body {
   background-color: var(--clr-primary-100);
   color: var(--clr-primary-900);
+  font-family: var(--ff-base);
+  font-size: var(--fs-default);
+  font-weight: var(--fw-regular);
   min-height: 100svh;
 }
