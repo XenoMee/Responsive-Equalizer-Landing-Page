@@ -97,3 +97,9 @@ body {
 .subscription__card {
   padding: 2rem 1.5rem;
 }
+
+/* Utility classes */
+.main-grid {
+  display: grid;
+  grid-template-columns: minmax(1rem, 1fr) minmax(20rem, 1fr) minmax(1rem, 1fr);
+}
