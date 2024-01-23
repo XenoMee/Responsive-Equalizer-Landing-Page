@@ -109,3 +109,7 @@ body {
   display: grid;
   grid-template-columns: minmax(1rem, 1fr) minmax(20rem, 1fr) minmax(1rem, 1fr);
 }
+
+.has-flex {
+  display: flex;
+}
