@@ -252,7 +252,7 @@ body {
   }
 
   .product__intro {
-    width: 70%;
+    width: 71%;
   }
 
   .intro-title {
@@ -308,4 +308,8 @@ body {
     background-image: url("./assets/bg-main-desktop.png");
     background-position: top 70% right 20%;
   } */
+
+  .product__content {
+    max-width: 70rem;
+  }
 }
