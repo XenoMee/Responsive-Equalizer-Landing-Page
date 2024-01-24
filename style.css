@@ -367,6 +367,10 @@ body {
     font-size: 1.25rem;
   }
 
+  .btn {
+    padding: 0.5rem 1.5rem;
+  }
+
   .ios-btn:is(:hover, :focus) {
     background-color: var(--clr-accent-300);
     color: var(--clr-primary-100);
