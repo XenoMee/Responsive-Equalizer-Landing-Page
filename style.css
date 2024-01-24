@@ -260,7 +260,7 @@ body {
   }
 
   .product__content {
-    grid-template-columns: minmax(0rem, 2rem) 0.5fr 1fr minmax(0rem, 2rem);
+    grid-template-columns: minmax(0rem, 2rem) 0.6fr 1fr minmax(0rem, 2rem);
     grid-template-rows: 0.3fr 0.8fr 0.2fr;
     margin-bottom: 5rem;
   }
@@ -268,6 +268,7 @@ body {
   .product__showcase {
     grid-area: 1 / 2 / 3 / 4;
     background-position-y: -40%;
+    background-position-x: 55%;
   }
 
   .app-image {
@@ -275,7 +276,7 @@ body {
   }
 
   .app-image {
-    transform: translate(15%, -20%);
+    transform: translate(20%, -25%);
   }
 
   .product__subscription {
