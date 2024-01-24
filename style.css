@@ -261,14 +261,14 @@ body {
 
   .product__content {
     padding: 0 var(--content-padding-horizontal);
-    grid-template-columns: minmax(0rem, 2rem) 0.4fr 1fr minmax(0rem, 2rem);
-    grid-template-rows: 0.35fr 0.8fr 0.2fr;
-    margin-bottom: 6rem;
+    grid-template-columns: minmax(0rem, 2rem) 0.5fr 1fr minmax(0rem, 2rem);
+    grid-template-rows: 0.3fr 0.8fr 0.2fr;
+    margin-bottom: 5rem;
   }
 
   .product__showcase {
     grid-area: 1 / 2 / 3 / 4;
-    background-position-y: -20%;
+    background-position-y: -40%;
   }
 
   .app-image {
@@ -276,7 +276,7 @@ body {
   }
 
   .app-image {
-    transform: translate(25%, -15%);
+    transform: translate(15%, -20%);
   }
 
   .product__subscription {
