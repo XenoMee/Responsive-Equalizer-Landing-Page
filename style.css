@@ -224,6 +224,16 @@ body {
   gap: 1rem;
 }
 
+.visually-hidden:not(:focus):not(:active):not(:focus-within) {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Tablet Version */
 @media (min-width: 45em) {
   :root {
     --content-padding-horizontal: 2rem;
@@ -301,6 +311,7 @@ body {
   }
 }
 
+/* Desktop Version */
 @media (min-width: 70em) {
   :root {
     --content-padding-horizontal: 9rem;
