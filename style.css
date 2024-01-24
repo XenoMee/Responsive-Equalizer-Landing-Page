@@ -227,6 +227,8 @@ body {
 @media (min-width: 40em) {
   :root {
     --content-padding-horizontal: 2rem;
+    --fs-default: 1.125rem;
+    --fs-h1: 4rem;
   }
 
   .product__content {
