@@ -267,7 +267,7 @@ body {
   }
 
   .product__showcase {
-    grid-area: 1 / 1 / 3 / -1;
+    grid-area: 1 / 2 / 3 / 4;
     background-position-y: -20%;
   }
 
@@ -306,7 +306,7 @@ body {
 
   body {
     background-image: url("./assets/bg-main-desktop.png");
-    background-position: top 70% right 20%;
+    background-position: top 80% right 30%;
   }
 
   body::before {
@@ -315,7 +315,17 @@ body {
 
   .product__content {
     max-width: 80rem;
+    grid-template-columns: minmax(0rem, 2rem) 1fr 0.8fr minmax(0rem, 2rem);
+    grid-template-rows: 0.2fr 0.8fr 0.2fr;
   }
+
+  /* .product__showcase {
+    background-position: ;
+  } */
+
+  /* .app-image{
+    transform: translate();
+  } */
 
   .product__subscription {
     max-width: 25rem;
