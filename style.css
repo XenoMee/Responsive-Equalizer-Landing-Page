@@ -304,10 +304,10 @@ body {
     --fs-h2: 2.5rem;
   }
 
-  /* body {
+  body {
     background-image: url("./assets/bg-main-desktop.png");
     background-position: top 70% right 20%;
-  } */
+  }
 
   .product__content {
     max-width: 70rem;
