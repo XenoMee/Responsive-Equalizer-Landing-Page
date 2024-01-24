@@ -252,8 +252,8 @@ body {
   } */
 
   .product__subscription {
-    /* padding: 2rem;
-    max-width: 23rem; */
+    padding: 2rem;
+    max-width: 23rem;
     grid-area: 2 / 3 / -1 / 4;
     z-index: 1;
   }
