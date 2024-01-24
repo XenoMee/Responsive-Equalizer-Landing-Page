@@ -255,6 +255,10 @@ body {
     width: 70%;
   }
 
+  .intro-title {
+    line-height: 1;
+  }
+
   .product__content {
     padding: 0 var(--content-padding-horizontal);
     grid-template-columns: minmax(0rem, 2rem) 0.4fr 1fr minmax(0rem, 2rem);
@@ -292,7 +296,7 @@ body {
   }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 70em) {
   :root {
     --content-padding-horizontal: 4rem;
     --fs-default: 1.25rem;
