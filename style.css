@@ -350,6 +350,16 @@ body {
     font-size: 1.25rem;
   }
 
+  .ios-btn:is(:hover, :focus) {
+    background-color: var(--clr-accent-300);
+    color: var(--clr-primary-100);
+  }
+
+  .android-btn:is(:hover, :focus) {
+    background-color: var(--clr-accent-500);
+    color: var(--clr-primary-900);
+  }
+
   .footer {
     grid-template-columns: 0.5fr 1fr 1fr;
   }
