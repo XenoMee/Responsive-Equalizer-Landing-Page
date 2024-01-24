@@ -309,9 +309,9 @@ body {
     background-position: top 70% right 20%;
   }
 
-  /* body::before {
+  body::before {
     transform: translate(0%, -10%);
-  } */
+  }
 
   .product__content {
     max-width: 80rem;
