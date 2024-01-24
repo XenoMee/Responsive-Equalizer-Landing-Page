@@ -260,7 +260,6 @@ body {
   }
 
   .product__content {
-    padding: 0 var(--content-padding-horizontal);
     grid-template-columns: minmax(0rem, 2rem) 0.5fr 1fr minmax(0rem, 2rem);
     grid-template-rows: 0.3fr 0.8fr 0.2fr;
     margin-bottom: 5rem;
