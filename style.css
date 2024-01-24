@@ -231,6 +231,12 @@ body {
     --fs-h1: 4rem;
   }
 
+  body {
+    position: relative;
+    background-image: url("./assets/bg-main-tablet.png");
+    background-position: top -50% left 80%;
+  }
+
   .product__intro {
     width: 70%;
   }
