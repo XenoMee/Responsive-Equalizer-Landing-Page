@@ -318,9 +318,9 @@ body {
     transform: translate(0%, -10%);
   }
 
-  /* .product-container {
+  .product-container {
     max-width: 90rem;
-  } */
+  }
 
   .product__intro {
     margin-bottom: 20rem;
