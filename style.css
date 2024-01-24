@@ -316,4 +316,16 @@ body {
   .product__content {
     max-width: 80rem;
   }
+
+  .footer {
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+
+  .footer__text {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .social-list {
+    grid-area: 1 / 3 / 2 / 4;
+  }
 }
