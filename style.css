@@ -181,7 +181,7 @@ body {
 
 .app-image {
   width: 15rem;
-  transform: translate(20%, -20%);
+  transform: translate(20%, -25%);
 }
 
 .product__subscription {
@@ -221,4 +221,14 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+@media (min-width: 40em) {
+  :root {
+    --content-padding-horizontal: 2rem;
+  }
+
+  /* .product__content {
+    padding: 0 var(--content-padding-horizontal);
+  } */
 }
