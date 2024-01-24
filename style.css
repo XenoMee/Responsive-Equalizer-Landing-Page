@@ -224,7 +224,7 @@ body {
   gap: 1rem;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
   :root {
     --content-padding-horizontal: 2rem;
     --fs-default: 1.125rem;
