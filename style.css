@@ -231,6 +231,16 @@ body {
     --fs-h1: 4rem;
   }
 
+  /* body {
+    background-image: url("./assets/bg-pattern-1.svg");
+    background-position: top right;
+    background-size: 15rem;
+  } */
+
+  .product__intro {
+    width: 70%;
+  }
+
   .product__content {
     padding: 0 var(--content-padding-horizontal);
   }
