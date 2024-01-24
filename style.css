@@ -181,7 +181,7 @@ body {
 }
 
 .app-image {
-  width: 17rem;
+  width: 13rem;
   transform: translate(20%, -25%);
 }
 
@@ -269,6 +269,10 @@ body {
   .product__showcase {
     grid-area: 1 / 2 / 3 / 4;
     background-position-y: -20%;
+  }
+
+  .app-image {
+    width: 17rem;
   }
 
   .app-image {
