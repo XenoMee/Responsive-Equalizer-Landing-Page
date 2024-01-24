@@ -22,6 +22,8 @@
   /* Padding */
   --content-padding-horizontal: 1rem;
   --content-padding-vertical: 2rem;
+
+  --mb-h1: 1.5rem;
 }
 
 /* Reset */
@@ -95,7 +97,7 @@ body {
 .intro-title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-bold);
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--mb-h1);
 }
 
 .subscription-title {
@@ -237,6 +239,8 @@ body {
 @media (min-width: 45em) {
   :root {
     --content-padding-horizontal: 2rem;
+    --content-padding-vertical: 2.5rem;
+    --mb-h1: 2rem;
     --fs-default: 1.125rem;
     --fs-h1: 4rem;
   }
@@ -315,6 +319,8 @@ body {
 @media (min-width: 70em) {
   :root {
     --content-padding-horizontal: 9rem;
+    --content-padding-vertical: 3rem;
+    --mb-h1: 2.5rem;
     --fs-default: 1.25rem;
     --fs-h1: 5.5rem;
     --fs-h2: 2.5rem;
