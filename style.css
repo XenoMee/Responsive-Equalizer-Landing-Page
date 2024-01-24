@@ -231,4 +231,8 @@ body {
   .product__content {
     padding: 0 var(--content-padding-horizontal);
   }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
 }
