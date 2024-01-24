@@ -157,7 +157,7 @@ body {
 }
 
 .footer {
-  padding: 0 var(--content-padding-horizontal);
+  padding: 0 var(--content-padding-horizontal) 4rem;
 }
 
 .product__intro {
