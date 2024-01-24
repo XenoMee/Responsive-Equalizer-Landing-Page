@@ -235,6 +235,7 @@ body {
     position: relative;
     background-image: url("./assets/bg-main-tablet.png");
     background-position: top -50% left 80%;
+    overflow-x: hidden;
   }
 
   body::before {
