@@ -253,6 +253,7 @@ body {
 
   .product__intro {
     width: 70%;
+    margin-bottom: 15rem;
   }
 
   .intro-title {
@@ -315,6 +316,14 @@ body {
 
   body::before {
     transform: translate(0%, -10%);
+  }
+
+  /* .product-container {
+    max-width: 90rem;
+  } */
+
+  .product__intro {
+    margin-bottom: 20rem;
   }
 
   .product__content {
