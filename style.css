@@ -228,7 +228,7 @@ body {
     --content-padding-horizontal: 2rem;
   }
 
-  /* .product__content {
+  .product__content {
     padding: 0 var(--content-padding-horizontal);
-  } */
+  }
 }
