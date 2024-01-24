@@ -247,9 +247,9 @@ body {
     background-position-y: -20%;
   }
 
-  /* .app-image {
+  .app-image {
     transform: translate(25%, -15%);
-  } */
+  }
 
   .product__subscription {
     padding: 2rem;
