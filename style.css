@@ -95,6 +95,7 @@ body {
 .intro-title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-bold);
+  margin-bottom: 1.5rem;
 }
 
 .subscription-title {
