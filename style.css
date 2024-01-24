@@ -303,7 +303,7 @@ body {
 
 @media (min-width: 70em) {
   :root {
-    --content-padding-horizontal: 4rem;
+    --content-padding-horizontal: 9rem;
     --fs-default: 1.25rem;
     --fs-h1: 5.5rem;
     --fs-h2: 2.5rem;
@@ -318,31 +318,32 @@ body {
     transform: translate(0%, -10%);
   }
 
-  .product-container {
+  .product-container,
+  .footer {
     max-width: 90rem;
   }
 
   .product__intro {
+    padding-right: 0;
     margin-bottom: 20rem;
   }
 
   .product__content {
-    max-width: 80rem;
-    grid-template-columns: minmax(0rem, 2rem) 1fr 0.8fr minmax(0rem, 2rem);
+    grid-template-columns: minmax(0rem, 9rem) 1fr 0.9fr minmax(0rem, 9rem);
     grid-template-rows: 0.2fr 0.8fr 0.2fr;
   }
 
-  /* .product__showcase {
-    background-position: ;
-  } */
+  .product__showcase {
+    background-position: 45% -20%;
+  }
 
   .app-image {
     width: 19.5rem;
   }
 
-  /* .app-image{
-    transform: translate();
-  } */
+  .app-image {
+    transform: translate(45%, -32%);
+  }
 
   .product__subscription {
     max-width: 25rem;
