@@ -252,7 +252,7 @@ body {
   }
 
   .product__intro {
-    width: 71%;
+    width: 70%;
   }
 
   .intro-title {
@@ -315,6 +315,11 @@ body {
 
   .product__content {
     max-width: 80rem;
+  }
+
+  .product__subscription {
+    max-width: 25rem;
+    font-size: 1.25rem;
   }
 
   .footer {
