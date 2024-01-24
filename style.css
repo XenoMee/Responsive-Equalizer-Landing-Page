@@ -291,3 +291,17 @@ body {
     justify-self: end;
   }
 }
+
+@media (min-width: 60em) {
+  :root {
+    --content-padding-horizontal: 4rem;
+    --fs-default: 1.25rem;
+    --fs-h1: 5.5rem;
+    --fs-h2: 2.5rem;
+  }
+
+  /* body {
+    background-image: url("./assets/bg-main-desktop.png");
+    background-position: top 70% right 20%;
+  } */
+}
